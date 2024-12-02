@@ -15,6 +15,9 @@ body{
 }
 .navbar{
     font-weight: bold;
+    border-bottom-style: solid;
+    border-color: rgb(221, 110, 184);
+    border-width: 5px;
 }
 .nav-item{
     font-size: larger;
