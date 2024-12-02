@@ -35,10 +35,32 @@ body{
     border-width: 5px;
     border: black;
 }
-.carousel-inner{
-    width: 100%;
-    height: 720px;
+.carousel-item{
+    width: 100vw;
+    height: 100vh;
 }
+
+.carousel-item img{
+    width: 100vw;
+    object-fit: cover;
+}
+.carousel-caption {
+    margin-top: 80%;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-height: 100vh;
+    border-radius: 20px;
+    background-color: rgb(34, 34, 34);
+}
+.carousel-caption p{
+    font-weight: bold;
+    font-size: 38px;
+}
+.carousel-caption h5{
+    font-weight: bold;
+    font-size: 32px;
+}
+
 #sitelogo{
     height: 80px;
     width: auto;
