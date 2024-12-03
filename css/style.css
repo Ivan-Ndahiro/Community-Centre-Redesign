@@ -13,10 +13,11 @@ a {
 body{
     background-color: white;
 }
-.navbar{
+#tpNav{
     font-weight: bold;
     border-bottom-style: solid;
-    border-color: rgb(221, 110, 184);
+    border-color: rgb(221,110,184);
+    border-color: radial-gradient(circle, rgba(221,110,184,1) 0%, rgba(200,108,198,1) 100%);
     border-width: 5px;
 }
 .nav-item{
@@ -51,11 +52,10 @@ body{
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
-    max-height: 100vh;
-    max-width: fit-content;
-    border: 2px black;
+    max-height: fit-content;
+    max-width: 20%;
     border-radius: 25px;
-    background-color: rgb(34, 34, 34);
+    background: rgb(63, 63, 63);
 }
 .carousel-caption p{
     font-weight: bold;
@@ -79,4 +79,10 @@ body{
 }
 #footer{
     font-size: smaller;
+}
+#footer .navbar{
+    border-top-style: solid;
+    border-color: rgb(221,110,184);
+    border-color: radial-gradient(circle, rgba(221,110,184,1) 0%, rgba(200,108,198,1) 100%);
+    border-width: 5px;
 }
