@@ -22,11 +22,7 @@ a {
 }
 .nav-item{
     font-size: larger;
-}
-.navbar-expand-lg .navbar-collapse {
-    display: flex;
-    position: relative;
-    justify-content: space-around;
+    margin-left: 25px;
 }
 #tpNav{
     font-weight: bold;
