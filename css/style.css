@@ -51,6 +51,7 @@ a {
 }
 .carousel-item img{
     height: 604px;
+    width: 100%;
     object-fit: cover;
 }
 .carousel-caption {
@@ -59,7 +60,7 @@ a {
     margin-right: auto;
     margin-bottom: 0;
     max-height: fit-content;
-    max-width: fit-content(25%);
+    max-width: fit-content;
     border-radius: 25px;
     background: rgb(63, 63, 63);
 }
