@@ -1,3 +1,7 @@
+body{
+    background-color: white;
+}
+/*Fonts*/
 h1,h2,h3,address,a{
     text-align: center;
     font-weight: bold;
@@ -10,8 +14,19 @@ a {
     text-decoration: none;
     color: black;
 }
-body{
-    background-color: white;
+
+/*Heading and Nav Bar*/
+.heading{
+    padding-top: -20px;
+    padding-bottom: 10px;
+}
+.nav-item{
+    font-size: larger;
+}
+.navbar-expand-lg .navbar-collapse {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
 }
 #tpNav{
     font-weight: bold;
@@ -20,18 +35,8 @@ body{
     border-color: radial-gradient(circle, rgba(221,110,184,1) 0%, rgba(200,108,198,1) 100%);
     border-width: 5px;
 }
-.nav-item{
-    font-size: larger;
-}
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
-    justify-content: space-around;
-    flex-basis: auto;
-}
-.heading{
-    padding-top: -20px;
-    padding-bottom: 10px;
-}
+
+/*Table*/
 .table{
     text-align: center;
     margin:auto;
@@ -39,19 +44,20 @@ body{
     border-width: 5px;
     border: black;
 }
-.carousel-item{
-    width: 100vw;
-    height: 100vh;
-}
 
+/*Carousel*/
+.carousel-item{
+    height: 100%;
+}
 .carousel-item img{
-    width: 100vw;
+    height: 604px;
     object-fit: cover;
 }
 .carousel-caption {
     margin-top: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
     max-height: fit-content;
     max-width: fit-content(25%);
     border-radius: 25px;
@@ -65,7 +71,7 @@ body{
     font-weight: bold;
     font-size: 32px;
 }
-
+/*ID*/
 #sitelogo{
     height: 80px;
     width: auto;
